@@ -1,0 +1,286 @@
+{
+	"code": 200,
+	"message": "成功!",
+	"result": [
+		{
+			"id":1,
+			"subject":"first-child",
+			"answer":"选择首个标签"
+		},
+		{
+			"id":2,
+			"subject":"lase-child",
+			"answer":"选择尾部标签"
+		},
+		{
+			"id":3,
+			"subject":"表格table的语义标签有？",
+			"answer":"table，thead，tdoby，tr，td"
+		},
+		{
+			"id":4,
+			"subject":"表格table,垂直方向单元格合并方法",
+			"answer":"rowspan=2"
+		},
+		{
+			"id":5,
+			"subject":"表格table,水平方向单元格合并方法",
+			"answer":"colspan=2"
+		},
+		{
+			"id":6,
+			"subject":"a链接显示连接的窗口或框架方法是？",
+			"answer":"target"
+		},
+		{
+			"id":7,
+			"subject":"a链接中target解释",
+			"answer":"显示链接的窗口或框架"
+		},
+		{
+			"id":8,
+			"subject":"在新窗口中打开链接的方法",
+			"answer":"target: _blank"
+		},
+		{
+			"id":9,
+			"subject":"在当前窗口打开链接的方法",
+			"answer":"target: _self"
+		},
+		{
+			"id":10,
+			"subject":"target: _self",
+			"answer":"在当前窗口打开链接"
+		},
+		{
+			"id":11,
+			"subject":"target: _blank",
+			"answer":"在新窗口中打开链接"
+		},
+		{
+			"id":12,
+			"subject":"加粗的html标签",
+			"answer":"strong"
+		},
+		{
+			"id":13,
+			"subject":"斜体的html标签",
+			"answer":"em"
+		},
+		{
+			"id":14,
+			"subject":"删除线的html标签",
+			"answer":"del"
+		},
+		{
+			"id":15,
+			"subject":"input按钮代码",
+			"answer":"input type='button'"
+		},
+		{
+			"id":16,
+			"subject":"input提交按钮代码",
+			"answer":"input type='submit'"
+		},
+		{
+			"id":17,
+			"subject":"input单选按钮代码",
+			"answer":"input type='radio'"
+		},
+		{
+			"id":18,
+			"subject":"input多选按钮代码",
+			"answer":"input type='checkbox'"
+		},
+		{
+			"id":19,
+			"subject":"下拉框标签",
+			"answer":"select》option"
+		},
+		{
+			"id":20,
+			"subject":"html输入空格的代码",
+			"answer":"nbsp"
+		},
+		{
+			"id":21,
+			"subject":"换行的单标记",
+			"answer":"br /"
+		},
+		{
+			"id":22,
+			"subject":"分割线的单标记",
+			"answer":"hr /"
+		},
+		{
+			"id":23,
+			"subject":"div,p 语义",
+			"answer":"选取页面所有的div和p标记"
+		},
+		{
+			"id":24,
+			"subject":"子元素选择器，选取到div内，所有的span标记",
+			"answer":"div span"
+		},
+		{
+			"id":25,
+			"subject":"子元素选择器，选取到div内，子集的span标记",
+			"answer":"div>span"
+		},
+		{
+			"id":26,
+			"subject":"div span",
+			"answer":"选取到div内，所有的span标记"
+		},
+		{
+			"id":27,
+			"subject":"div>span",
+			"answer":"选取到div内，子集的span标记"
+		},
+		{
+			"id":28,
+			"subject":"兄弟选择器，选取到div同级，下一个span标记",
+			"answer":"div+span"
+		},
+		{
+			"id":29,
+			"subject":"div+span",
+			"answer":"兄弟选择器，选取到div同级，下一个span标记"
+		},
+		{
+			"id":30,
+			"subject":"属性选择器，选取到标签的属性有value的",
+			"answer":"[value]{}"
+		},
+		{
+			"id":31,
+			"subject":"属性选择器，选取到标签选择器的属性值为value的元素",
+			"answer":"[value=登录]{}"
+		},
+		{
+			"id":32,
+			"subject":"[value]{}",
+			"answer":"属性选择器，选取到标签的属性有value的"
+		},
+		{
+			"id":33,
+			"subject":"[value=登录]{}",
+			"answer":"属性选择器，选取到标签选择器的属性值为的元素"
+		},
+		{
+			"id":34,
+			"subject":"css选择器权重",
+			"answer":"!important>行内样式>id>class>标签>统配符"
+		},
+		{
+			"id":35,
+			"subject":"谷歌默认字体大小多少px",
+			"answer":"16px"
+		},
+		{
+			"id":36,
+			"subject":"浏览器最小字体大小为多少px",
+			"answer":"12px"
+		},
+		{
+			"id":37,
+			"subject":"css字体加粗方法？",
+			"answer":"font-weight: bold"
+		},
+		{
+			"id":38,
+			"subject":"font-weight: bold",
+			"answer":"字体加粗"
+		},
+		{
+			"id":39,
+			"subject":"css字体斜体属性",
+			"answer":"font-style: italic"
+		},
+		{
+			"id":40,
+			"subject":"font-style: italic",
+			"answer":"字体斜体"
+		},
+		{
+			"id":41,
+			"subject":"选择器有哪些",
+			"answer":"标签选择器，id选择器，类选择器，子元素选择器，兄弟选择器，属性选择器"
+		},
+		{
+			"id":42,
+			"subject":"伪元素：未访问过的链接",
+			"answer":": link"
+		},
+		{
+			"id":43,
+			"subject":"伪元素：已访问过的链接",
+			"answer":": visited"
+		},
+		{
+			"id":44,
+			"subject":"伪元素：鼠标划过的链接",
+			"answer":": hover"
+		},
+		{
+			"id":45,
+			"subject":"伪元素：已选中的链接",
+			"answer":": active"
+		},
+		{
+			"id":46,
+			"subject":": link",
+			"answer":"伪元素：未访问过的链接"
+		},
+		{
+			"id":47,
+			"subject":": visited",
+			"answer":"伪元素：已访问过的链接"
+		},
+		{
+			"id":48,
+			"subject":": hover",
+			"answer":"伪元素：鼠标划过的链接"
+		},
+		{
+			"id":49,
+			"subject":": active",
+			"answer":"伪元素：已选中的链接"
+		},
+		{
+			"id":50,
+			"subject":"伪元素：选择父元素的第一个子元素",
+			"answer":"p > span: first-chile"
+		},
+		{
+			"id":51,
+			"subject":"伪元素：匹配所有作为第一个子元素的<p>元素中的所有<i>元素",
+			"answer":"div>p:first-chile"
+		},
+		{
+			"id":,
+			"subject":"",
+			"answer":""
+		},
+		{
+			"id":,
+			"subject":"",
+			"answer":""
+		},
+		{
+			"id":,
+			"subject":"",
+			"answer":""
+		},
+		{
+			"id":,
+			"subject":"",
+			"answer":""
+		},
+		{
+			"id":,
+			"subject":"",
+			"answer":""
+		}
+	]
+}

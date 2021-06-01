@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>HC题库</title>
+	<style>
+		.header {
+			text-align: center;
+		}
+		.main {
+			margin: 0 auto;
+			text-align: center;
+		}
+		.th1 {
+			width: 3rem;
+		}
+		.th2 {
+			width: 30rem;
+		}
+		.th3 {
+			width: 30rem;
+		}
+	</style>
+</head>
+<body>
+	<h1 class="header">html+css题库</h1>
+	<table border="1" cellspacing="3" cellpadding="10" class="main" id="str">
+		<!-- <tr>
+			<th class="th1">序号</th>
+			<th class="th2">题目</th>
+			<th class="th3">答案</th>
+		</tr> -->
+	</table>
+	
+	<script type="text/javascript">
+		function loadX (){
+				var xmlhttp;
+				if(window.XMLHttpRequest){
+					xmlhttp = new XMLHttpRequest();     //IE7，FireFox,Chrome,OPera,Safari
+				}else{
+					xmlhttp = new ActiveXobject('Microsoft.xmlHTTP');  // IE6，IE5
+				}
+			  xmlhttp.onreadystatechange=function(){
+				if (xmlhttp.readyState==4 && xmlhttp.status==200){
+						  var str = xmlhttp.responseText;
+						  var jso = JSON.parse(str);
+						  var strs = document.getElementById("str");
+						  var len = jso.result.length;
+						  var strc = "<tr><td class='th1'>序号</td><td class='th2'>问题</td><td class='th3'>答案</td></tr>";
+						  for(var i=0;i<len;i++){
+							strc+='<tr><td>'+(i+1)+'</td><td>'+jso.result[i].subject+'</td><td>'+jso.result[i].answer+'</td></tr>';
+							strs.innerHTML = strc;
+						  }
+				  }
+			  }
+					xmlhttp.open('GET','../../json/hc.json',true);
+					xmlhttp.send(); 
+			}
+			loadX();
+	</script>
+</body>
+</html>

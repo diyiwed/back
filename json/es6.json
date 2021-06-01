@@ -1,0 +1,81 @@
+{
+	"code": 200,
+	"message": "成功!",
+	"result": [
+		{
+			"id":1,
+			"subject":"es6声明变量的方法",
+			"answer":"let a = 1"
+		},
+		{
+			"id":2,
+			"subject":"es6声明常量的方法",
+			"answer":"const a =1"
+		},
+		{
+			"id":3,
+			"subject":"var 与 let的区别",
+			"answer":"①var 可以重复声明 ②无法限制修改 ③没有块级作用域"
+		},
+		{
+			"id":4,
+			"subject":"let 和 var的区别",
+			"answer":"①不能重复声明 ②有块级作用域"
+		},
+		{
+			"id":5,
+			"subject":"let 和 const的区别",
+			"answer":"let 变量可以修改，const常量不能修改"
+		},
+		{
+			"id":6,
+			"subject":"es6循环（迭代）方法",
+			"answer":"forEach"
+		},
+		{
+			"id":7,
+			"subject":"es6映射方法",
+			"answer":"map"
+		},
+		{
+			"id":8,
+			"subject":"es6汇总方法",
+			"answer":"reduce"
+		},
+		{
+			"id":9,
+			"subject":"es6过滤器",
+			"answer":"filter"
+		},
+		{
+			"id":10,
+			"subject":"forEach为什么方法",
+			"answer":"循环（迭代）"
+		},
+		{
+			"id":11,
+			"subject":"map",
+			"answer":"映射"
+		},
+		{
+			"id":12,
+			"subject":"reduce",
+			"answer":"汇总"
+		},
+		{
+			"id":13,
+			"subject":"filter",
+			"answer":"过滤器"
+		},
+		{
+			"id":,
+			"subject":"",
+			"answer":""
+		},
+		{
+			"id":,
+			"subject":"",
+			"answer":""
+		}
+	]
+}

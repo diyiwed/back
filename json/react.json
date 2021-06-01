@@ -1,0 +1,46 @@
+{
+	"code": 200,
+	"message": "成功!",
+	"result": [
+		{
+			"subject":"React特点",
+			"answer":"①声明式编码 ②组件化编程 ③高效优秀的Diffing算法"
+		},
+		{
+			"subject":"React高效的原因？",
+			"answer":"使用虚拟DOM，不总是直接操作DOM"
+		},
+		{
+			"subject":"ract",
+			"answer":"ract"
+		},
+		{
+			"subject":"ract",
+			"answer":"ract"
+		},
+		{
+			"subject":"ract",
+			"answer":"ract"
+		},
+		{
+			"subject":"ract",
+			"answer":"ract"
+		},
+		{
+			"subject":"ract",
+			"answer":"ract"
+		},
+		{
+			"subject":"ract",
+			"answer":"ract"
+		},
+		{
+			"subject":"ract",
+			"answer":"ract"
+		},
+		{
+			"subject":"ract",
+			"answer":"ract"
+		}
+	]
+}
